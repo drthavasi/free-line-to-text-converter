@@ -1,0 +1,135 @@
+.container {
+    width: 700px;
+    margin: 50px auto;
+  }
+  
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    resize: vertical;
+    min-height: 300px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  button {
+    padding: 10px;
+    margin-right: 5px;
+  }
+  
+  .history-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    font-family: 'Lato', sans-serif;
+  }
+  
+  .table-header {
+    background-color: #f2f2f2;
+  }
+  
+  .table-header th {
+    padding: 8px;
+    font-weight: bold;
+  }
+  
+  .table-row:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .table-row td {
+    padding: 8px;
+  }
+  
+  #output {
+    width: 723px;
+    margin: 25px auto;
+  }
+
+  h1 {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+  }
+
+
+  #intro {
+    /* text-align: center; */
+    padding: 40px;
+    background-color: #f2f2f2;
+  }
+
+  #intro p {
+    font-size: 18px; /* Increase the font size */
+    line-height: 1.5;
+    margin-bottom: 40px;
+    font-size: 23px;
+
+  }
+
+  #intro hr {
+    border: none;
+    height: 4px;
+    background-color: #ccc;
+    margin: 20px auto;
+    width: 50%;
+  }
+
+  #adContainer {
+    text-align: center;
+    padding: 40px;
+    background-color: #f9f9f9;
+    margin-top: 20px;
+
+  }
+
+  #additionalInfo {
+    /* text-align: center; */
+    padding: 20px;
+    background-color: #f9f9f9;
+    /* margin-top: 30px; */
+  }
+
+  /* Styles for the additional info paragraph */
+  #additionalInfo p {
+    font-size: 23px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+
+  #additionalInfo h2 {
+    font-size: 45px;
+    line-height: 1.5;
+  }
+
+  #howToUse {
+    text-align: left;
+    padding: 20px;
+    background-color: #f9f9f9;
+    margin-top: 23px;
+  }
+
+  /* Styles for the bullet points */
+  #howToUse ul {
+    list-style-type: num;
+    padding-left: 40px;
+    font-size: 23px;
+  }
+
+  #howToUse li {
+    margin-bottom: 10px;
+  }
+
+  #howToUse h2 {
+    font-size: 40px;
+  }
+
+  footer {
+    text-align: center;
+    background-color: #f9f9f9;
+    padding: 10px;
+    font-size: 14px;
+    color: #777;
+  }
